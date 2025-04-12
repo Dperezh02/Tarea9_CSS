@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Relax Corporation</title>
+    <link href="css.css" rel="stylesheet" type="text/css" />
+    <meta name="author" content="Daniela Pérez Henao">
+    <meta name="description" content="Relax Corporation, pagina de bienvenida, trabjo realizado con metodologia BEM.">
+    <meta name="keywords" content="BEM CSS, HTML, Bootstrap, Relax Corporation, Daniela Pérez Henao">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <title>Mi página con Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+  <body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Top Nav -->
+    <div id="top-nav" class="row header">
+      <div class="col-12 header__logo">
+        <b>Relax</b>Corporation
+      </div>
+    </div>
+
+    <!-- Imagen Header -->
+    <div id="header" class="row header__image">
+      <div class="col-12">
+        <img src="images/header.jpg" alt="img banner beach" width="100%"/>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Sección Principal con Menú y Contenido -->
+      <div class="row mt-4">
+        <!-- Menú -->
+        <div id="navigation" class="col-3 menu bg-light border shadow-sm mx-3">
+          <strong><h6 id="title-menu" class="menu__title">Main Menu</h6></strong>
+          <hr class="menu__separator">
+          <nav class="nav flex-column">
+            <a href="#" class="nav-link menu__link text-start py-1 ps-3">Home</a>
+            <a href="#" class="nav-link menu__link text-start py-1 ps-3">About Us</a>
+            <a href="#" class="nav-link menu__link text-start py-1 ps-3">News</a>
+            <a href="#" class="nav-link menu__link text-start py-1 ps-3">Contact Us</a>
+            <a href="#" class="nav-link menu__link text-start py-1 ps-3">Links</a>
+          </nav>
+        </div>
+        <br><br>
+        
+        <!-- Contenido -->
+        <div id="content" class="col-8 contenido">
+          <h1 class="contenido__titulo text-right">Welcome</h1>
+          <hr class="contenido__separador"/>
+          <p class="contenido__texto">
+            <a class="contenido__link" href="#">Lorem ipsum</a> dolor sit amet, consectetur adipisicing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim 
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate 
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+            est laborum.
+          </p>
+
+          <h1 class="contenido__titulo text-right">Lorem ipsum</h1>
+          <hr class="contenido__separador"/>
+          <p class="contenido__texto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+            consequat. Duis aute irure dolor in reprehenderit in <a class="contenido__link" href="#">voluptate</a> 
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+            est laborum.
+          </p>
+
+          <p class="contenido__texto">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod 
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo 
+            consequat. <a class="contenido__link" href="#">Duis aute irure</a> dolor in reprehenderit in voluptate 
+            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat 
+            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id 
+            est laborum.
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div id="footer" class="row">
+        <div class="col-12 footer">
+          Copyright © 2005 | All Rights Reserved
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
